@@ -1,0 +1,4 @@
+asyncio
+playwright
+flask
+waitress

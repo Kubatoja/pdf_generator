@@ -1,0 +1,165 @@
+style = '''
+<style>
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.pdf-container{
+    max-width: 794px;
+    min-height: 1012px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.first--section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.company > h1{
+    font-size: 12px;
+
+}
+.date{
+    margin-top: 5%;
+}
+.company{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+h1{
+    font-size: 20px;
+}
+.second--section{
+    text-align: center;
+    margin-top: -15px;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    background-color: black;
+    height: 1px;
+}
+
+.third--section{
+    width: 85%;
+    min-height: 150px;
+    display: flex;
+    margin-bottom: 22px;
+}
+.third--section--left{
+    width: 55%;
+}
+.table--title{
+    background-color: lightgray;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 2px;
+    border: 1px solid black;
+}
+.table--body{
+    border: 1px solid black;
+    border-top: none;
+    height: 100%;
+}
+
+.third--section--right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.third--section--right > .table{
+    width: 90%;
+    min-height: 43%;
+}
+
+.third--section--right > .table > .table--body{
+    font-size: 12px;
+}
+.fourth--section{
+    width: 85%;
+    font-size: 14px;
+}
+
+.fifth--section{
+    margin-top: 30px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.fifth--left, .fifth--right{
+    display: flex;
+    width: 49%;
+    border: 1px solid black;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fifth--table--title{
+    border-right: 1px solid black;
+    padding: 2px;
+    padding-right: 3px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: lightgray;
+}
+.fifth--table--body{
+    padding-right: 5px;
+}
+.sixth--section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.sixth--left, .sixth--right{
+    width: 49.3%;
+}
+
+.seventh--section{
+    margin-top: 37px;
+    margin-bottom: 27px;
+    width: 85%;
+    min-height: 120px;
+}
+
+.seventh--section > .table--body{
+    min-height: 100px;
+}
+.eight--section{
+    width: 88%;
+    height: 240px;
+    font-size: 12px;
+    
+}
+.eight--section > .table--title{
+    font-size: 16px;
+}
+ p{
+    margin-top: -0px;
+}
+</style>
+'''
