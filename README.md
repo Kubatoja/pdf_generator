@@ -88,7 +88,7 @@ until finished
 {
     "recipient_email":"",   #Email address of message recipient
     "user_email":"",    # Mail of person who send the mail. Used to send BCC message to sender.
-    "user_company":"",  # Company that send the email. Implemented options: 'bowim'/'passat'.
+    "user_company":"",  # Company that send the email. Implemented options: 'comapny1/company2'.
     "user_fullname":"", # Full name of person who sends the email.
     "user_phone":"",    # Mobile phone number of person who sends the email.
     "city" : "",        # City name. Used on pdf file in the left corner
